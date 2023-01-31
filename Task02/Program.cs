@@ -13,7 +13,8 @@ int k = Convert.ToInt32(Console.ReadLine());
 if (n > m && n > k)
     Console.WriteLine ($"Число {n} самое большое");
 else if (m > n && m > k)   //Выполняется это условие и дальше проверка не идет.
-    Console.WriteLine ($"Число {m} самое большое");
+    Console.WriteLine 
+    ($"Число {m} самое большое");
 else if (k > n && k > m)   //Выполняется это условие и дальше проверка не идет.
     Console.WriteLine ($"Число {k} самое большое");
 
